@@ -1,3 +1,5 @@
+----------
 # Kade Robertson
 ----------
-Under construction.
+email: kade@kaderobertson.pw
+----------
