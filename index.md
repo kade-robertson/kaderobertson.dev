@@ -10,9 +10,10 @@ I am a computer science student at the University of Waterloo, currently doing w
 management, and developing software for internal use to be used alongside our ERP software.
 
 I have a project I have taken more seriously:
-
-  - [AnimmexAPI](https://github.com/kade-robertson/AnimmexAPI), a C# wrapper for performing various actions 
-    on Animmex, a Russian video streaming site. They currently have no official API, so this is a substitute.
+<ul>
+<li><a href="https://github.com/kade-robertson/AnimmexAPI">AnimmexAPI</a>, a C# wrapper for performing various actions 
+    on Animmex, a Russian video streaming site. They currently have no official API, so this is a substitute.</li>
+</ul>
  
 A lot of my GitHub activity is based around esoteric programming languages. I have created interpreters for:
 
