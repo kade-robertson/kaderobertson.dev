@@ -1,4 +1,7 @@
-/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/*! borrowed from normalize.css v4.1.1 which is under MIT license. Modified to fit my needs. */
+
+@import "sizing.css";
+
 html { 
   font-family: sans-serif; 
   -ms-text-size-adjust: 100%; 
