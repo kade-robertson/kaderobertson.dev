@@ -1,5 +1,9 @@
 ----------
+
 # Kade Robertson
+
 ----------
-email: kade@kaderobertson.pw
+
+email: [kade@kaderobertson.pw](mailto:kade@kaderobertson.pw)
+
 ----------
