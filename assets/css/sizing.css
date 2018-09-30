@@ -646,7 +646,7 @@
 .no-underline { text-decoration: none !important; }
 .no-wrap { white-space: nowrap !important; }
 .text-emphasized { font-weight: 600; color: #333; }
-.container { width: 980px; margin-right: auto; margin-left: auto; }
+.container { max-width: 80%; height: auto; margin-right: auto; margin-left: auto; }
 .container::before { display: table; content: ""; }
 .container::after { display: table; clear: both; content: ""; }
 .container-md { max-width: 768px; margin-right: auto; margin-left: auto; }
