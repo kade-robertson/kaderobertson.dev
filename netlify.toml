@@ -1,0 +1,3 @@
+[build]
+command = "mkdir -p dist; npm install -g node-sass; node-sass style.scss dist/style.css; cp index.html dist"
+publish = "dist/"
