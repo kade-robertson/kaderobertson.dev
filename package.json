@@ -1,0 +1,18 @@
+{
+  "name": "kaderobertson.dev",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "repository": "git@github.com:kade-robertson/kaderobertson.dev.git",
+  "author": "Kade Robertson <kade@kaderobertson.dev>",
+  "license": "MIT",
+  "private": true,
+  "volta": {
+    "node": "14.16.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.8",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.4"
+  }
+}

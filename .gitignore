@@ -3,3 +3,4 @@ style-old.css
 style.css
 style.css.map
 dist/*
+node_modules
