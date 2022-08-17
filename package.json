@@ -5,26 +5,28 @@
   "author": "Kade Robertson <kade@kaderobertson.dev>",
   "license": "MIT",
   "private": true,
+  "type": "module",
   "scripts": {
-    "build": "ts-node build.ts",
+    "build": "ts-node --esm --experimental-specifier-resolution node build.ts",
     "build:watch": "onchange src/* -- yarn build",
     "format": "prettier --write build.ts",
     "serve": "serve -s dist",
     "dev": "yarn build && npm-run-all --parallel serve build:watch"
   },
   "volta": {
-    "node": "14.17.3",
-    "yarn": "1.22.10"
+    "node": "16.17.0",
+    "yarn": "1.22.19"
   },
   "devDependencies": {
     "@types/fs-extra": "^9.0.12",
     "@types/node": "^16.3.3",
+    "critical": "^4.0.1",
     "npm-run-all": "^4.1.5",
     "onchange": "^7.1.0",
     "prettier": "^2.3.2",
     "serve": "^12.0.0",
-    "ts-node": "^10.1.0",
-    "typescript": "^4.3.5"
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
   },
   "dependencies": {
     "fs-extra": "^10.0.0",

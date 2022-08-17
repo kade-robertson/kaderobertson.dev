@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "esModuleInterop": true,
+    // "preserveSymlinks": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
+  }
+}
