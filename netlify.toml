@@ -1,3 +1,4 @@
 [build]
+environment = { NODE_VERSION = "16" }
 publish = "dist/"
 command = "yarn build"
