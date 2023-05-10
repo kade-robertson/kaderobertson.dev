@@ -1,4 +1,4 @@
 [build]
-environment = { NODE_VERSION = "16" }
+environment = { NODE_VERSION = "20" }
 publish = "dist/"
-command = "yarn build"
+command = "pnpm build"
