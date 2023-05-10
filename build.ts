@@ -1,9 +1,6 @@
-// @ts-ignore
+import { generate } from "critical";
 import HtmlWebpackInlineSVGPlugin from "html-webpack-inline-svg-plugin";
 import fs from "fs-extra";
-
-// @ts-ignore
-import critical from "critical";
 
 // Copy files from 'src' to 'dist'.
 try {
@@ -22,7 +19,7 @@ const htmlData = await fs.readFile("dist/index.html", { encoding: "utf-8" });
 const svgInliner = new HtmlWebpackInlineSVGPlugin();
 const svgInlinedHtmlData = await svgInliner.processImages(htmlData);
 
-const { html: inlinedCssHtmlData } = await critical.generate({
+const { html: inlinedCssHtmlData } = await generate({
   inline: true,
   base: "dist/",
   html: svgInlinedHtmlData,
