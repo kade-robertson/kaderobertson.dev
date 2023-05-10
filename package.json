@@ -7,31 +7,36 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node --loader ts-node/esm build.ts",
-    "build:watch": "onchange src/* -- yarn build",
+    "build": "ts-node --files --esm build.ts",
+    "build:watch": "nodemon -e html,css,ts --ignore dist --ignore node_modules --exec 'pnpm build'",
     "format": "prettier --write build.ts",
     "serve": "serve -s dist",
-    "dev": "pnpm build && npm-run-all --parallel serve build:watch"
+    "dev": "pnpm build && concurrently -n \"serve,build\" \"pnpm serve\"  \"pnpm build:watch\""
   },
   "volta": {
-    "node": "20.1.0",
+    "node": "18.16.0",
     "pnpm": "8.5.0"
   },
   "packageManager": "pnpm@8.5.0",
   "devDependencies": {
-    "@types/fs-extra": "^9.0.12",
+    "@types/fs-extra": "^11.0.1",
     "@types/node": "^20.1.2",
-    "critical": "^4.0.1",
-    "npm-run-all": "^4.1.5",
-    "onchange": "^7.1.0",
-    "prettier": "^2.3.2",
-    "serve": "^12.0.0",
+    "concurrently": "^8.0.1",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8",
+    "serve": "^14.2.0",
     "ts-node": "^10.9.1",
-    "typescript": "^4.7.4"
+    "typescript": "^5.0.4"
   },
   "dependencies": {
-    "fs-extra": "^10.0.0",
+    "critical": "^5.1.1",
+    "fs-extra": "^11.1.1",
     "html-webpack-inline-svg-plugin": "^2.3.0",
-    "html-webpack-plugin": "^5.3.2"
+    "html-webpack-plugin": "^5.5.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "nwsapi": "2.2.2"
+    }
   }
 }
