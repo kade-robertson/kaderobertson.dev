@@ -14,46 +14,25 @@
     "dev": "pnpm build && concurrently -n \"serve,build\" \"pnpm serve\"  \"pnpm build:watch\""
   },
   "volta": {
-    "node": "18.16.0",
-    "pnpm": "8.5.0"
+    "node": "20.12.1",
+    "pnpm": "8.15.6"
   },
-  "packageManager": "pnpm@8.5.0",
+  "engines": {
+    "node": "20.12.1"
+  },
+  "packageManager": "pnpm@8.15.6",
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^20.12.4",
     "concurrently": "^8.2.2",
-    "nodemon": "^2.0.22",
+    "nodemon": "^3.1.0",
     "prettier": "^2.8.8",
     "serve": "^14.2.1",
     "tsx": "^4.7.2",
     "typescript": "^5.4.4"
   },
   "dependencies": {
-    "critical": "^5.3.0",
     "fs-extra": "^11.2.0",
-    "html-webpack-inline-svg-plugin": "^2.3.0",
-    "html-webpack-plugin": "^5.6.0"
-  },
-  "pnpm": {
-    "overrides": {
-      "nwsapi": "2.2.2",
-      "axios@<0.21.1": ">=0.21.1",
-      "follow-redirects@<1.14.8": ">=1.14.8",
-      "axios@<0.21.2": ">=0.21.2",
-      "follow-redirects@<1.14.7": ">=1.14.7",
-      "nth-check@<2.0.1": ">=2.0.1",
-      "follow-redirects@<1.15.4": ">=1.15.4",
-      "semver@>=7.0.0 <7.5.2": ">=7.5.2",
-      "axios@>=0.8.1 <0.28.0": ">=0.28.0",
-      "follow-redirects@<=1.15.5": ">=1.15.6"
-    },
-    "allowedDeprecatedVersions": {
-      "svgo": "^1",
-      "stable": "^0.1.0",
-      "source-map-resolve": "^0.6.0",
-      "abab": "^2.0.0",
-      "domexception": "^4.0.0",
-      "puppeteer": "^2.1.1"
-    }
+    "inline-source": "^8.0.3"
   }
 }
