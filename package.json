@@ -15,12 +15,12 @@
   },
   "volta": {
     "node": "22.14.0",
-    "pnpm": "9.15.4"
+    "pnpm": "9.15.6"
   },
   "engines": {
     "node": "22.14.0"
   },
-  "packageManager": "pnpm@9.15.4",
+  "packageManager": "pnpm@9.15.6",
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^22.0.0",
