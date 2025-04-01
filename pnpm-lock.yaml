@@ -20,7 +20,7 @@ importers:
         version: 11.0.4
       '@types/node':
         specifier: ^22.0.0
-        version: 22.13.15
+        version: 22.13.16
       concurrently:
         specifier: ^9.0.0
         version: 9.1.2
@@ -223,8 +223,8 @@ packages:
   '@types/jsonfile@6.1.4':
     resolution: {integrity: sha512-D5qGUYwjvnNNextdU59/+fI+spnwtTFmyQP0h+PfIOSkNfpU6AOICUOkm4i0OnSk+NyjdPJrxCDro0sJsWlRpQ==}
 
-  '@types/node@22.13.15':
-    resolution: {integrity: sha512-imAbQEEbVni6i6h6Bd5xkCRwLqFc8hihCsi2GbtDoAtUcAFQ6Zs4pFXTZUUbroTkXdImczWM9AI8eZUuybXE3w==}
+  '@types/node@22.13.16':
+    resolution: {integrity: sha512-15tM+qA4Ypml/N7kyRdvfRjBQT2RL461uF1Bldn06K0Nzn1lY3nAPgHlsVrJxdZ9WhZiW0Fmc1lOYMtDsAuB3w==}
 
   '@zeit/schemas@2.36.0':
     resolution: {integrity: sha512-7kjMwcChYEzMKjeex9ZFXkt1AyNov9R5HZtjBKVsmVpw7pa7ZtlCGvCBC2vnnXctaYN+aRI61HjIqeetZW5ROg==}
@@ -991,13 +991,13 @@ snapshots:
   '@types/fs-extra@11.0.4':
     dependencies:
       '@types/jsonfile': 6.1.4
-      '@types/node': 22.13.15
+      '@types/node': 22.13.16
 
   '@types/jsonfile@6.1.4':
     dependencies:
-      '@types/node': 22.13.15
+      '@types/node': 22.13.16
 
-  '@types/node@22.13.15':
+  '@types/node@22.13.16':
     dependencies:
       undici-types: 6.20.0
 
