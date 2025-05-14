@@ -14,11 +14,11 @@
     "dev": "pnpm build && concurrently -n \"serve,build\" \"pnpm serve\"  \"pnpm build:watch\""
   },
   "volta": {
-    "node": "22.15.0",
+    "node": "22.15.1",
     "pnpm": "9.15.9"
   },
   "engines": {
-    "node": "22.15.0"
+    "node": "22.15.1"
   },
   "packageManager": "pnpm@9.15.9",
   "devDependencies": {
