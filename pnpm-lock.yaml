@@ -29,7 +29,7 @@ importers:
         version: 3.1.14
       prettier:
         specifier: ^3.0.0
-        version: 3.8.5
+        version: 3.9.0
       serve:
         specifier: ^14.2.1
         version: 14.2.6
@@ -673,8 +673,8 @@ packages:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
 
-  prettier@3.8.5:
-    resolution: {integrity: sha512-zxcTTCedNGJM4R8sj/Cq/F0W/c4iE0afWBcBwMTRtw4WHYP9TWkYjdiH3npPRUYsXQCPR0hTU9yjovOu+E6EQA==}
+  prettier@3.9.0:
+    resolution: {integrity: sha512-LjIqSIC5VYLzs9WedVmJ2ljNAGnU+DteIClbahu4L/DBeWjZ6iT/k1lAYyu9JUh+1xINxWadaPw/Pl63y/agAw==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1436,7 +1436,7 @@ snapshots:
 
   picomatch@2.3.1: {}
 
-  prettier@3.8.5: {}
+  prettier@3.9.0: {}
 
   pstree.remy@1.1.8: {}
 
